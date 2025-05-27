@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VisiClean™ – Warteliste</title>
+  <meta name="description" content="VisiClean™ ist das erste integrierte Ultraschall-Reinigungssystem für Motorradhelme. Trage dich in die Warteliste ein und erhalte exklusive Updates!" />
+  <meta name="keywords" content="Helmvisier reinigen, Motorradhelm, Helm Ultraschall, VisiClean, Motorrad Reinigung, Regen Helm Lösung" />
+  <meta name="author" content="VisiClean Team">
+  <meta property="og:title" content="VisiClean™ – Ultraschall-Reinigung für dein Helmvisier" />
+  <meta property="og:description" content="Das erste unsichtbare System zur automatischen Helmreinigung bei Regen. Jetzt auf die Warteliste eintragen." />
+  <meta property="og:image" content="https://via.placeholder.com/1200x630.png?text=VisiClean+Preview" />
+  <meta property="og:url" content="https://simsdever.github.io/visiclean-waitlist/" />
+  <meta property="og:type" content="website" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body class="bg-white text-gray-900 font-sans">
+  <div class="max-w-4xl mx-auto mt-12 px-4">
+    <header class="text-center mb-12">
+      <h1 class="text-5xl font-bold text-blue-700">VisiClean™</h1>
+      <p class="mt-4 text-lg text-gray-600">Das erste integrierte Ultraschall-Reinigungssystem für dein Helmvisier. Automatisch. Unsichtbar. Brillant bei Regen.</p>
+    </header>
+    <div class="flex justify-center mb-10">
+      <img src="https://via.placeholder.com/800x400.png?text=VisiClean+3D+Render" alt="VisiClean Helm 3D-Render" class="rounded-lg shadow-lg" />
+    </div>
+    <section class="mb-12">
+      <h2 class="text-2xl font-semibold mb-3">Warum VisiClean™?</h2>
+      <ul class="list-disc pl-6 text-gray-700 space-y-2">
+        <li>✅ Ultraschalltechnologie entfernt Wasser und Schmutz, ohne bewegliche Teile.</li>
+        <li>✅ Reagiert automatisch bei Regen oder Nebel.</li>
+        <li>✅ Unsichtbar im Helm integriert – kein Kabel, kein Aufwand.</li>
+        <li>✅ Entwickelt nach höchsten Sicherheitsstandards für Motorradhelme (ECE 22.06).</li>
+      </ul>
+    </section>
+    <section class="bg-gray-100 p-8 rounded-lg shadow">
+      <h2 class="text-xl font-semibold text-center mb-4">Jetzt eintragen und als Erste:r informiert werden</h2>
+      <form action="https://formspree.io/f/mblovezk" method="POST" class="space-y-4">
+        <input type="hidden" name="_redirect" value="https://simsdever.github.io/visiclean-waitlist/danke.html" />
+        <div>
+          <label class="block text-sm font-medium text-gray-700">Name</label>
+          <input type="text" name="name" required class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm" />
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700">E-Mail-Adresse</label>
+          <input type="email" name="email" required class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm" />
+        </div>
+        <div>
+          <label class="flex items-center">
+            <input type="checkbox" required class="mr-2">
+            <span class="text-sm text-gray-600">Ich stimme der Speicherung meiner Daten gemäß DSGVO zu.</span>
+          </label>
+        </div>
+        <div class="g-recaptcha" data-sitekey="your_recaptcha_site_key"></div>
+        <div class="text-center">
+          <button type="submit" class="mt-4 bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700">
+            Auf Warteliste setzen
+          </button>
+        </div>
+      </form>
+      <p class="mt-4 text-xs text-gray-500 text-center">Kein Spam. Nur relevante Updates zur Verfügbarkeit und Beta-Tests.</p>
+    </section>
+    <footer class="text-center text-gray-400 text-xs mt-12">
+      <p>© 2025 VisiClean™. Alle Rechte vorbehalten.</p>
+    </footer>
+  </div>
+</body>
+</html>
